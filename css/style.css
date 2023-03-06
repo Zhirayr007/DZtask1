@@ -1,0 +1,109 @@
+/*ПЩДКЛЮЧЕНИЕ ШРИФТОВ=============================================================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+/*=============================================================================================================================*/
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+.content {
+    display: grid;
+    grid-template-columns: 36% 29% 17% 18%;
+    grid-template-areas: "a b c d" "a b e f" "j h e f";
+}
+
+.block1 {
+    background: #F9F9F9;
+    grid-area: a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block1-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block1-content__title {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.iconblock {
+    margin-top: 137px;
+}
+
+.iconblock a:nth-child(2) {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.block2 {
+    grid-area: b;
+}
+.block2__img {
+    width: 100%;
+    height: 100%;
+}
+.block3 {
+    grid-area: c;
+}
+.block3__img {
+    width: 100%;
+    height: 100%;
+}
+.block4 {
+    grid-area: d;
+}
+.block4__img {
+    width: 100%;
+    height: 100%;
+}
+.block5 {
+    background: #828282;
+    grid-area: j;
+    padding: 95px 48px 54px 65px;
+}
+
+.block5__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #F2F2F2;
+}
+
+.block6 {
+    background: #A6806B;
+    grid-area: h;
+}
+.block6__img {
+    width: 100%;
+    height: 100%;
+}
+.block7 {
+    grid-area: e;
+}
+.block7__img {
+    width: 100%;
+    height: 100%;
+}
+.block8 {
+    background: #A61C1C;
+    grid-area: f;
+    position: relative;
+}
+.block8__img {
+    position: absolute;
+    bottom: 0;
+}

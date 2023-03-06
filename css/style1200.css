@@ -1,0 +1,62 @@
+@media (min-width: 1200px) and (max-width: 1536px) {
+    .content {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 40% 26% 34%;
+        grid-template-areas: "a b c d" "a b e f" "j h e f";
+    }
+
+    .block1-content__title {
+        font-size: 64px;
+    }
+
+    .iconBlock__inst {
+        width: 23px;
+        height: 23px;
+    }
+
+    .iconBlock__phone {
+        width: 23px;
+        height: 23px;
+    }
+
+    .iconBlock__message {
+        width: 23px;
+        height: 23px;
+    }
+
+    .block2__img {
+        width: auto;
+        height: 100%;
+    }
+
+    .block3__img {
+        width: auto;
+        height: auto;
+    }
+
+    .block4__img {
+        width: auto;
+        height: auto;
+    }
+
+    .block5 {
+        grid-area: j;
+        padding: 65px 45px 64px 65px;
+    }
+
+    .block5__text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .block6__img {
+        width: auto;
+        height: 100%;
+    }
+
+    .block7__img {
+        width: auto;
+        height: auto;
+    }
+}
